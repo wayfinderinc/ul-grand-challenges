@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'ulmoderat';
+	src:  url('../app/creative/fonts/UL-Moderat-Regular.woff2') format('woff2'),
+		  url('../app/creative/fonts/UL-Moderat-Regular.woff') format('woff');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'ulmoderat';
+	src:  url('../creative/fonts/UL-Moderat-Medium.woff2') format('woff2'),
+		  url('../creative/fonts/UL-Moderat-Medium.woff') format('woff');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'ulmoderat';
+	src:  url('../creative/fonts/UL-Moderat-Bold.woff2') format('woff2'),
+		  url('../creative/fonts/UL-Moderat-Bold.woff') format('woff');
+	font-weight: 700;
+}
+
+* { -webkit-tap-highlight-color: rgba(0,0,0,0); box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; list-style: none; outline: none; padding: 0; margin: 0; }
+
+html, body { -webkit-touch-callout: none; -webkit-text-size-adjust: none; font-family: 'ulmoderat', sans-serif; font-weight: 400; color: #fff; font-size: 18px; background-color:#122C49; margin: 0px; overflow-x: hidden; }
+
+:root { 
+    --white: white;
+    --dark-color: #1E242B;
+    --light-copy-color: #6B727D;
+    --primary-color: #C02032;
+    --grey-bg: #FAFBFE;
+    --cloud-grey-color: #E8ECF1;
+}
+
+button, input, optgroup, select, textarea { font-family: inherit; }
+
+a { text-decoration: none; color: inherit; cursor: pointer; }
+
+$primary-color: #0007E8;
+$malibu: #8FA1FF;
+$cloud-grey-color: #E8ECF1;
+$grey-bg: #FAFBFE;
+$white: #fff;
+$dark: #000;
